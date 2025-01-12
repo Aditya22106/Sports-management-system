@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+
+img#co1 {
+    padding: 0px 25px 0px 25px ;
+}
+img#co2 {
+    padding: 10px 100px 20px 25%;
+    float: unset;
+    
+}
+img#co3 {
+    padding: 40px 30px 40px 30px ;
+    float: right;
+}
+.body{
+    background-image:url(../images/background.png);
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.7)),url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-image:url(../images/background.png);
+    padding-bottom: 10%;
+}
+.asd label{
+    font-size:70px;
+    color: #09ff00;
+    text-align: center;
+    padding: 10px 100px 20px 25%;
+    float: unset;
+}
+.asd row2{
+    box-sizing: border-box;
+    justify-content: flex-start;
+}
+.column1 {
+  float: left;
+  width: 100%;
+}
+.row #co2{
+    padding-bottom: 30px;
+}
+.asd::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+
+#right{
+    
+    position: relative;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+.adi{
+    height: 55px;
+    display: flex;
+    padding: 1% 1%;
+    justify-content: center;
+    align-items: center;
+    background-color: #09ff00;
+    
+}
+nav{
+    display: flex;
+    padding: 0% 0%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav2{
+    display: flex;
+    padding: 0% 0%;
+    justify-content: space-between;
+    align-items: right;
+}
+nav img{
+    width: 70px;
+    height: 50px;
+}
+.nav_links2{
+    flex: 1;
+    text-align: right;
+}
+.nav-links2 ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+.nav-links2 ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-links2 ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+}
+.nav-links2 ul li:hover::after{
+    width: 100%;
+}
+header .verve_image {
+    position: relative;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 10;   
+    margin-bottom: 0;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.aaa{
+    margin-left: 2%;
+    max-width: 200px;
+}
+.a1 img{
+    align-content: center;
+}
+
+/*--form--*/
+.form{
+    min-height: 100vh;
+    width: 1344px 4967px;
+    background-image:url(images/body.png);
+    background-position: center;
+    background-size: cover;
+}
+.form-col{
+    width: 90%;
+    color: #000000;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+}
+.form-group{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 5px;
+    padding: 0px 15px;
+    text-align: right;
+}
+.form-col input{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.form-col button{
+    background-color: #09ff00;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 15px 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.form-col button:hover{
+    background: #09ff00;
+    transition: 0.000001s;
+}
+.text-box2{
+    width: 90%;
+    color: #000000;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.abc{
+    min-height: 100vh;
+    width: 1344px 4967px;
+    background-image:url(images/body.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*---create events form ---*/
+
+
+#create-event, #abc{
+    margin-top: 30px;
+}
+#create-event h2, #abc h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.form2 {
+    max-width: 50%;
+    max-height: 10px;
+    font-size: 22px;
+    padding-left: 25%;
+    display: block;
+}
+.form3 {
+	max-width: 500px;
+}
+.form2 label{
+    display: inline;
+    font-size: 22px;
+}
+
+.form2 input, form textarea {
+    width: 100%;
+    padding: 2px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    box-sizing: border-box;
+	font-size: 20px;
+}
+
+.form2 textarea {
+    height: 150px;
+}
+.form2 button, .form3 button[type="submit"] {
+	background-color: #09ff00;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.ply {
+    display: inline-flex;
+
+    max-height: 30px;
+}
+.form2 button, .form3 button [type="submit"]:hover {
+	background-color: #09ff00;
+}
+
+.form3 select{
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+.form3 {
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--footer--*/
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;  
+    color: #fff;
+}
+.asq {
+    margin: 2% 2%;
+    padding:2% 1%; 
+    margin-top: 2%;
+    position: relative; 
+    display: block;
+
+}
+.asq img{
+    padding: 1%;
+}
+.as p{
+    margin-right: 30%;
+    color: #fff;
+}
+.footer i{
+    font-size: 22px;
+    color: #09ff00;
+}
+.asq fa {
+
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 2% 2%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.footer ul li {
+    list-style: none;
+    display: inline-block; 
+}
+.footer ul{
+    margin-right: 5%;
+}
+.ab{
+    padding: 10px;
+}
+.foot2 h5{
+    font-size: 30px;
+    color: #f58220;
+}
+.foot2, .footer_row_last{
+    margin: 4%;
+
+} 
+.row6, .footer_row_last p{
+    margin-left: 2px;
+    color: #fff;; 
+}
+.footer_row2{
+    margin-left: 5%;
+}
+.foot-col{
+    padding: 1px; 
+}
+.foot-col2 p{
+    padding: 1px; 
+}
+.footer_row_last a {
+    color: #f7c223;
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    letter-spacing: 0.60px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.footer_row_last h5{
+    font-size: 30px;
+    color: #f58220;
+}
